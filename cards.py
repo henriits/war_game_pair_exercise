@@ -13,7 +13,6 @@ class CardDeck:
     def card_deck(self, card_deck):
         self._card_deck = card_deck
         for _ in ["♥️", "♦️", "♠️", "♣️"]:
-            print(_)
             self._card_deck += [{"name": _ + " A", "value": 14},
                 {"name": _ + " K", "value": 13},
                 {"name": _ + " Q", "value": 12},
@@ -27,7 +26,3 @@ class CardDeck:
                 {"name": _ + " 4", "value": 4},
                 {"name": _ + " 3", "value": 3},
                 {"name": _ + " 2", "value": 2}]
-            # print(self._card_deck)
-
-cards = CardDeck()
-print(cards)
