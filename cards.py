@@ -26,3 +26,6 @@ class CardDeck:
                 {"name": _ + " 4", "value": 4},
                 {"name": _ + " 3", "value": 3},
                 {"name": _ + " 2", "value": 2}]
+            
+    def return_deck(self):
+        return self.card_deck
